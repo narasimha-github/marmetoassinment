@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100%;
+    background-size: cover;
+    background-color: #dedebd;
+    margin: 0px;
+    padding: 20px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.button {
+    height: 30px;
+    background-color: #d4d4cb;
+    width: 170px;
+    margin-bottom: 20px;
+    transition: background-color 0.5s ease, color 0.3s ease;
+}
+
+.button:hover {
+    background-color: black;
+    color: #ffffff;
+}
+
+.main-head {
+    font-family: 'Roboto';
+}
+
+.cart {
+    max-height: 430px;
+    transition: background-color 0.5s ease, color 0.3s ease;
+    background-color: #f2f2da;
+    margin: 10px;
+    width: 180px;
+}
+
+.cart:hover {
+    background-color: #abf5d9;
+}
+
+.koll {
+    position: relative;
+}
+
+.manage {
+    height: 200px;
+    width: 180px;
+    border-radius: 5px;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.para {
+    position: absolute;
+    display: flex;
+    background-color: #e8e8df;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 30px;
+    width: 80px;
+}
+
+.sub-dive2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+
+.cart-hd {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cart-hd1 {
+    font-family: 'Roboto';
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.cart-hd2 {
+    font-family: 'Roboto';
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.but {
+    background-color: black;
+    color: #ffffff;
+    width: 150px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.cart-hd3 {
+    font-family: 'Roboto';
+    font-size: 10px;
+    font-weight: 500;
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.cart-hd4 {
+    font-family: 'Roboto';
+    font-size: 10px;
+    font-weight: 500;
+    color: #f20519;
+}
